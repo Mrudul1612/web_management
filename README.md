@@ -1,22 +1,35 @@
-# task-management-system
+## 🧱 Project Structure
 
-Project Structure
-The project is a full-stack application divided into three main components:
+This project is a **full-stack application** organized into three main components:
 
-Backend (/backend):
-Built with FastAPI (Python).
-Uses Uvicorn as the ASGI server.
-Includes a local SQLite database (tasks.db).
-Contains Docker configuration (Dockerfile) for containerization.
-Frontend (/frontend):
-Built with React (JavaScript).
-Uses react-scripts (Create React App).
-Includes an Nginx configuration (nginx.conf) and Dockerfile for serving the static build.
-Infrastructure (/k8s):
-Contains Kubernetes configuration files for deployment.
-Tech Stack
-Language: Python (Backend), JavaScript (Frontend)
-Frameworks: FastAPI, React
-Database: SQLite
-DevOps: Docker, Kubernetes
-Let me know if you would like me to explore specific files or start a Development task!
+---
+
+### 📦 Backend (`/backend`)
+- Built with **FastAPI (Python)**  
+- Runs on **Uvicorn** as the ASGI server  
+- Uses a local **SQLite database (`tasks.db`)**  
+- Includes **Dockerfile** for containerization  
+
+---
+
+### 💻 Frontend (`/frontend`)
+- Developed using **React (JavaScript)**  
+- Bootstrapped with **Create React App (react-scripts)**  
+- Contains **Nginx configuration (`nginx.conf`)**  
+- Includes **Dockerfile** for serving static files  
+
+---
+
+### ☸️ Infrastructure (`/k8s`)
+- Holds **Kubernetes manifests** for deploying both frontend and backend  
+- Designed for container orchestration and scalability  
+
+---
+
+## ⚙️ Tech Stack
+- **Languages:** Python (Backend), JavaScript (Frontend)  
+- **Frameworks:** FastAPI, React  
+- **Database:** SQLite  
+- **DevOps Tools:** Docker, Kubernetes  
+
+---
